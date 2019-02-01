@@ -1,0 +1,279 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+
+Colors:
+Dark Blue: #052F5F
+Lighter Blue: #005377
+Green: #069954
+Tan: #D5C67A
+Yellow: #F2B307
+
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #ffffff;
+  	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+/* Links */
+a {
+    color: #069954;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+}
+
+a:before, a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+
+/* NavBar */
+.navbar {
+	height: 14%;
+    
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+	padding-top: 10px;
+    
+    text-transform: uppercase;
+	font-size: 18px;
+    color: #f2f2f2;
+    
+    background-color: #069954;
+    border-color: transparent;
+}
+
+.navbar-homeName {
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 2px;
+    padding-bottom: 0px;
+    color: #f2f2f2;
+}
+
+/* NavBar Links */
+.navbar-nav > li > a {
+	color: #f2f2f2;
+    font-weight: 600;
+    padding: 8px 25px 0px 25px;
+}
+
+.navbar-nav > li > a:hover {
+	color: #F2B307;
+    background: transparent;
+}
+
+.navbar-homeName:hover {
+    color: #ffffff;
+}
+
+.navbar-toggle {
+	border-color: transparent;
+}
+
+/* Footer */
+#footer {
+	background-color: #2f2f2f;
+	padding-top: 30px;
+	padding-bottom: 0px; 
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 8px;
+}
+
+
+/* Bonus Margins and Padding */
+
+.mSpace {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pSpace {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* Sections */
+
+.greySection {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f2f2f2;
+}
+
+
+/* Image Hover Effects */
+/* Effects also are controled by hover.zoom.js */
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+.zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: #17B200;
+}
+
+
+/* Home Page */
+
+#headshot{
+    width: 200px;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 150px;
+    margin-left: 0%;
+    border-color: #F2B307;
+}
+
+.homeName1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #2f2f2f;
+    margin-left: 31%;
+    margin-right: 2%;
+}
+
+.homeName2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #2f2f2f;
+    margin-left: 2%;
+    #margin-right: 31%;
+}
+
+
+/* Home Page */
+.contactP{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* Experience Page */
+
+table {
+    margin: auto;
+    width: 90%;
+    margin-top: 8%;
+}
+
+tr {
+}
+
+td {
+    padding: 0% 2% 7% 2%;
+}
+
+.exImg {
+    width: 15%;
+}
+
+.exText {
+    width: 60%;
+}
+
+.exSkill {
+    width: 12%;
+}
+
+.imageRef{
+    color: gray;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 16px;
+}
+
