@@ -1,18 +1,16 @@
 /*
- * Author: Carlos Alvarez
+ * Template author: Carlos Alvarez
  * URL: http://alvarez.is
- *
  * Project Name: STANLEY - Free Bootstrap 3 Theme
  * Version: 1.0
  * URL: http://blacktie.co
 
 Colors:
 Dark Blue: #052F5F
-Lighter Blue: #005377
-Green: #069954
-Tan: #D5C67A
+Lighter Blue: #007EB5
 Yellow: #F2B307
-
+Mid Gray: #f2f2f2
+Dark Gray: #2f2f2f
  */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -65,7 +63,7 @@ p {
 
 /* Links */
 a {
-    color: #069954;
+    color: #007EB5;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -76,7 +74,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #7b7b7b;
+    color: #052F5F;
     text-decoration: none;
 }
 
@@ -101,7 +99,7 @@ a:before, a:after {
 	font-size: 18px;
     color: #f2f2f2;
     
-    background-color: #069954;
+    background-color: #2f2f2f;
     border-color: transparent;
 }
 
@@ -126,7 +124,7 @@ a:before, a:after {
 }
 
 .navbar-homeName:hover {
-    color: #ffffff;
+    color: #F2B307;
 }
 
 .navbar-toggle {
@@ -150,6 +148,14 @@ a:before, a:after {
 	padding-bottom: 8px;
 }
 
+#footer a {
+    color: #F2B307;
+}
+
+#footer a:hover, a:focus {
+    color: #f2f2f2;
+    text-decoration: none;
+}
 
 /* Bonus Margins and Padding */
 
@@ -213,10 +219,8 @@ a:before, a:after {
 #headshot{
     width: 200px;
     border-style: solid;
-    border-width: 8px;
     border-radius: 150px;
     margin-left: 0%;
-    border-color: #F2B307;
 }
 
 .homeName1{
@@ -251,9 +255,6 @@ table {
     margin-top: 8%;
 }
 
-tr {
-}
-
 td {
     padding: 0% 2% 7% 2%;
 }
@@ -263,11 +264,12 @@ td {
 }
 
 .exText {
-    width: 60%;
+    width: 100%;
 }
 
 .exSkill {
     width: 12%;
+    padding: 5%;
 }
 
 .imageRef{
