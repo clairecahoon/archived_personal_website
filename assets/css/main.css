@@ -54,6 +54,7 @@ p {
     line-height: 26px;
     margin-bottom: 20px;
     font-size: 16px;
+    color: #404040;
 }
 
 .centered {
@@ -241,6 +242,12 @@ a:before, a:after {
     #margin-right: 31%;
 }
 
+.pronouns{
+    color: #404040;
+    margin: 0 1% 1% 1%;
+    text-align: center;
+    font-size: 14px;
+}
 
 /* Home Page */
 .contactP{
