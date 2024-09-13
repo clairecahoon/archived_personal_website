@@ -6,7 +6,7 @@
  * URL: http://blacktie.co
 
 Colors:
-Dark Blue: #052F5F
+Dark Blue: #005780
 Lighter Blue: #007EB5
 Yellow: #F2B307
 Mid Gray: #f2f2f2
@@ -67,7 +67,7 @@ p {
 
 /* Links */
 a {
-    color: #007EB5;
+    color: #005780;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
